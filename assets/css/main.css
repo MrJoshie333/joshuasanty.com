@@ -654,6 +654,13 @@ header #menu-btn:hover{
 
 
 /*--------------------- 6- Qualification Area CSS (Start) ---------------------*/
+
+/* Changing colors of links */
+a:link {
+	color:var(--red);
+	text-decoration: none;
+	}
+
 .qualification .box-container{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -668,6 +675,7 @@ header #menu-btn:hover{
     flex-wrap: wrap;
     gap: 4rem;
 }
+
 
 .education, .experience{
     -webkit-box-flex: 1;
